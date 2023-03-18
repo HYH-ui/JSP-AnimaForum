@@ -16,6 +16,8 @@
 
 	<script type=text/javascript src="<%=path %>/js/common.js"></script>
 	<script type=text/javascript src="<%=path %>/js/iframe.js"></script>
+
+	
 </head>
 <body style="width: 80%;margin: 0 auto;">
 	<div class="nav">
