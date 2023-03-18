@@ -1,0 +1,100 @@
+.btn{
+	width:24px; height:24px;
+	background:url('../images/buttons.png');
+	float:left; cursor:pointer;
+	margin:7px 3px;
+}
+.btnEdit{
+	background-position:0px 0px;	
+}
+.btnStop{
+	background-position:-24px 0px;
+}
+.btnDel{
+	background-position:-48px 0px;	
+}
+.btnAdd{
+	background-position:-72px 0px;
+}
+
+/* ----------------------  [ TABLE ]  ------------------------  */
+
+#tbl{
+	border:1px solid #A2A2A2;
+	width:1023px;
+}
+
+ul{	
+	list-style:none;
+	margin:0px; padding:0px;		
+	/* background:orange; */	
+}
+
+#title{
+	background:#E2E2E2;
+}
+
+.item{
+	height:37px;
+}
+.item li{
+	border-top:1px solid #A2A2A2;	
+	border-left:1px solid #A2A2A2;	
+	height:35px; text-indent:0.5em;
+	font-size:17px; float:left;
+	line-height:35px; margin-top:-1px;
+}
+
+.item li:nth-child(1){
+	width:120px; border-left:none;
+}
+
+.item li:nth-child(2){
+	width:430px;
+}
+
+.item li:nth-child(3){
+	width:320px;
+}
+
+.item li:nth-child(4){
+	width:150px;
+}
+
+.item li span{
+	margin-left:10px;
+}
+
+.mi_btn{
+	width:15px; height:15px;
+	display:inline-block;
+	background:url('../images/add_redu.png');
+	cursor:pointer; 
+}
+.btnOpen{
+	background-position:0px 0px;
+	width:15px; height:15px;
+	background-color:yellow;
+}
+.btnClose{
+	background-position:15px 0px;
+}
+
+.lv1 .mi_btn{
+	margin-left:0px;
+}
+.lv2 .mi_btn{
+	margin-left:25px;
+}
+.lv3 .mi_btn{
+	margin-left:50px;
+}
+.lv4 .mi_btn{
+	margin-left:75px;
+}
+
+
+
+
+
+

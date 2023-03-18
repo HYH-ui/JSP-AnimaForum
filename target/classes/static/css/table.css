@@ -1,0 +1,16 @@
+#tbl{ margin-top:15px; margin-left:25px; }
+#tbl th{ height:45px; }
+#tbl td{
+	font-weight:normal; height:45px;
+	font-family:微软雅黑; font-size:17px;
+}
+#tbl [type='text']{
+	height:28px; font-size:17px;
+	text-indent:0.3em;
+}
+#tbl select { width:200px; height:32px; font-size:17px; }
+#tbl td:nth-child(1){ width:80px; }
+#tbl td:nth-child(2){ width:350px; }
+input[readonly]{
+	background:#E5E5E5;	
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.bbs.dao.TopicDao">
+    <!--查询帖子列表-->
+    <select id="list" resultType="Topic">
+        select pid,fid,author,subject,view,replies,addtime from t_topic
+    </select>
+    <!--删除帖子-->
+    <delete id="deltopic" parameterType="Integer">
+        delete from t_topic where pid = #{pid}
+    </delete>
+</mapper>

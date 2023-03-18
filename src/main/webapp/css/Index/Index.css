@@ -1,0 +1,16 @@
+HTML{
+    background-image: url("https://img2.baidu.com/it/u=3820471059,4100243038&fm=253&fmt=auto?w=1280&h=800");
+}
+
+BODY{
+    width: 60%;
+    margin: 0 auto;
+}
+.nav-logo-img{
+    width: 60px;
+    height: 60px;
+}
+.nav{
+    height: 80px;
+    width: 100%;
+}
